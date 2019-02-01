@@ -3,7 +3,7 @@ defmodule TwitchApi.MixProject do
 
   def project do
     [
-      app: :chatstat_twitch_api,
+      app: :twitch_api,
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
@@ -23,7 +23,8 @@ defmodule TwitchApi.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.4"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:nebulex, "~> 1.0"}
     ]
   end
 end
