@@ -24,7 +24,7 @@ defmodule TwitchApi.MixProject do
     [
       {:httpoison, "~> 1.4"},
       {:jason, "~> 1.1"},
-      {:nebulex, "~> 1.0"}
+      {:ex_rated, "~> 1.2"}
     ]
   end
 end
